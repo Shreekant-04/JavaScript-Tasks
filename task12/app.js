@@ -1,4 +1,4 @@
-let numbers = [153, 407, 157, 371, 907, 0];
+let numbers = [153, 407, 157, 371, 907];
 for (let j = 0; j < numbers.length; j++) {
   let number = numbers[j];
   let str = number.toString();
