@@ -38,7 +38,7 @@ const count = function () {
 for (let i = 0; i < arrays.length; i++) {
   arr = arrays[i];
   //call
-  console.log(`Array : -[${arr.toString()}] `);
+  console.log(`Array : - [${arr.toString()}] `);
   max();
   sum();
   count();
