@@ -38,7 +38,7 @@ for (let i = 0; i < arrays.length; i++) {
   };
 
   //call
-  console.log("Array : -", arrays[i]);
+  console.log("Array : -", arr);
   max();
   sum();
   count();
