@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+nav {
+  width: 100%;
+  height: 8vmin;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.555);
+}
+h2 {
+  height: 8vmin;
+  line-height: 8vmin;
+}
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  width: 100%;
+}
+div {
+  height: 20vh;
+  width: 10vw;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  text-align: center;
+  line-height: 20vh;
+  cursor: pointer;
+}
+
+.username input,
+button {
+  height: 6vmin;
+  font-size: 1.2rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+}
+.username button {
+  width: 15vmin;
+}
